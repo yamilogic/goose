@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "node scripts/generate-docs-map.js && docusaurus build",
+    "start": "node init && docusaurus start",
+    "build": "node init && node scripts/generate-docs-map.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

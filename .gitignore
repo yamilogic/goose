@@ -5,7 +5,6 @@ run_cli.sh
 tokenizer_files/
 .DS_Store
 .idea
-.vscode
 .zed/
 *.log
 tmp/
@@ -63,7 +62,6 @@ do_not_version/
 /temporal.db
 /ui/desktop/src/bin/goose-scheduler-executor
 /ui/desktop/src/bin/goose
-/.env
 
 /working_dir
 
@@ -97,3 +95,7 @@ gooseselftest/
 /crates/goose-sdk/examples/uniffi/kotlin/.gradle/
 /crates/goose-sdk/examples/uniffi/kotlin/.kotlin/
 /crates/goose-sdk/examples/uniffi/kotlin/build/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

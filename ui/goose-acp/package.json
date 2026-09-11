@@ -31,7 +31,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "npm run build && node --test test/*.test.mjs",
     "lint": "tsc --noEmit",
     "format": "prettier --write src/ test/ bin/",
