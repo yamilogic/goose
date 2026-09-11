@@ -97,3 +97,6 @@ gooseselftest/
 /crates/goose-sdk/examples/uniffi/kotlin/.gradle/
 /crates/goose-sdk/examples/uniffi/kotlin/.kotlin/
 /crates/goose-sdk/examples/uniffi/kotlin/build/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
