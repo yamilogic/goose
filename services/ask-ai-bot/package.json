@@ -6,9 +6,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "discraft start",
-    "build": "discraft build",
-    "dev": "discraft dev"
+    "start": "node init && discraft start",
+    "build": "node init && discraft build",
+    "dev": "node init && discraft dev"
   },
   "devDependencies": {
     "discraft": "^1.7.11",

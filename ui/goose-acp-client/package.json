@@ -27,8 +27,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run generate && npm run build:ts",
-    "build:ts": "tsc",
+    "build": "node init && npm run generate && npm run build:ts",
+    "build:ts": "node init && tsc",
     "generate": "tsx generate-schema.ts",
     "lint": "tsc --noEmit",
     "format": "prettier --write src/ generate-schema.ts",
